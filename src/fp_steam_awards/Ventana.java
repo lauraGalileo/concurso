@@ -21,7 +21,7 @@ public class Ventana extends JFrame {
 		this.setLayout(new GridLayout(3,1));
 		datos= new Datos(this);
 		this.add(datos);
-		elegir=new Elegir(this);
+		elegir=new Elegir();
 		this.add(elegir);
 		enviar= new Enviar(this);
 		this.add(enviar);

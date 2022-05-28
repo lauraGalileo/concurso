@@ -19,18 +19,9 @@ public class AccionSexo implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		ventana.getElegir().setVisible(true);
 		ventana.getEnviar().setVisible(true);
-		
-		if(((String)ventana.getDatos().getCombo_sexo().getSelectedItem()).equalsIgnoreCase("mujer")) {
-
-			ventana.getElegir().getOpc().getOp_hombre().setVisible(false);
-			ventana.getElegir().getOpc().getOp_mujer().setVisible(true);
-			
-		}else if(((String)ventana.getDatos().getCombo_sexo().getSelectedItem()).equalsIgnoreCase("hombre")){
-
-			ventana.getElegir().getOpc().getOp_hombre().setVisible(true);
-			ventana.getElegir().getOpc().getOp_mujer().setVisible(false);
+		ventana.getElegir().getOpc().setVisible(true);
 		}
 		
-	}
+	
 
 }

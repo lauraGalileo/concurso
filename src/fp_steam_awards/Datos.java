@@ -42,9 +42,9 @@ public class Datos extends JPanel{
 		
 		
 		nom.setBounds(30, 30, 100, 20);
-		text_nom.setBounds(130,30,100,20);
+		text_nom.setBounds(130,30,120,20);
 		ape.setBounds(30, 90, 100, 20);
-		text_ape.setBounds(130, 90, 100, 20);
+		text_ape.setBounds(130, 90, 120, 20);
 		edad.setBounds(300, 60, 100, 20);
 		text_edad.setBounds(400, 60, 100, 20);
 		sexo.setBounds(150, 150, 80, 20);	

@@ -17,14 +17,13 @@ public class Elegir extends JPanel{
 	private Opciones opc;
 	
 	
-	public Elegir(Ventana ventana){
-		jf=ventana;
+	public Elegir(){
 		this.setLayout(new BorderLayout());
 		titulo = new JLabel("Elige tus estudios");
 		titulo.setFont(new Font("Franklin Gothic Book",Font.BOLD,20));
 		titulo.setHorizontalAlignment(JLabel.CENTER);
 		this.add(titulo,BorderLayout.NORTH);
-		opc = new Opciones(jf);
+		opc = new Opciones();
 		this.add(opc,BorderLayout.CENTER);
 		this.setVisible(false);
 	}
